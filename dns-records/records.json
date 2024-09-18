@@ -12,8 +12,8 @@
       "target": "panditamey.github.io"
     },
     {
-      "subdomain": "ashutosh.ameyp.tech",
-      "target": "panditamey.github.io"
+      "subdomain": "rrtelecommunication.ameyp.tech",
+      "target": "cname.vercel-dns.com"
     }
   ]
   
