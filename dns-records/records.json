@@ -1,0 +1,11 @@
+[
+    {
+      "subdomain": "testx.ameyp.tech",
+      "target": "panditamey.github.io"
+    },
+    {
+      "subdomain": "testy.ameyp.tech",
+      "target": "panditamey.github.io"
+    }
+  ]
+  
