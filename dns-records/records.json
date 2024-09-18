@@ -1,19 +1,7 @@
 [
     {
-      "subdomain": "testx.ameyp.tech",
-      "target": "panditamey.github.io"
-    },
-    {
       "subdomain": "testxy.ameyp.tech",
-      "target": "panditamey.github.io"
-    },
-    {
-      "subdomain": "testxyz.ameyp.tech",
-      "target": "panditamey.github.io"
-    },
-    {
-      "subdomain": "rrtelecommunication.ameyp.tech",
-      "target": "cname.vercel-dns.com"
+      "target": "ameyp.tech"
     }
   ]
   
