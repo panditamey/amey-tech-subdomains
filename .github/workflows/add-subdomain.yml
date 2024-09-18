@@ -12,12 +12,17 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      # Add other steps relevant to your project here
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+
+      - name: Install Dependencies
+        run: npm install
+
       - name: Add Subdomains to Cloudflare
         run: |
-          # Replace this with the actual command or script you need to run
-          # For example, if you're using Python or another language, run the appropriate command
-          # python ./scripts/update-dns.py
+          node ./scripts/update-dns.js
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
