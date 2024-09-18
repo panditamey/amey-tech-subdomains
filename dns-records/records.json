@@ -6,6 +6,10 @@
     {
       "subdomain": "testxy.ameyp.tech",
       "target": "panditamey.github.io"
+    },
+    {
+      "subdomain": "testxyz.ameyp.tech",
+      "target": "panditamey.github.io"
     }
   ]
   
